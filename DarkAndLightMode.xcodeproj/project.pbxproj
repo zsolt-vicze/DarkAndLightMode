@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3172BC8F2AB0AFC800DE1026 /* XtraDarkAndLightModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3172BC8E2AB0AFC800DE1026 /* XtraDarkAndLightModeTests.swift */; };
 		31AD30332A94F94600164A5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AD30322A94F94600164A5E /* AppDelegate.swift */; };
 		31AD30352A94F94600164A5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AD30342A94F94600164A5E /* SceneDelegate.swift */; };
 		31AD30372A94F94600164A5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AD30362A94F94600164A5E /* ViewController.swift */; };
@@ -19,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3172BC902AB0AFC800DE1026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31AD30272A94F94600164A5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31AD302E2A94F94600164A5E;
+			remoteInfo = DarkAndLightMode;
+		};
 		31AD30462A94F94800164A5E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 31AD30272A94F94600164A5E /* Project object */;
@@ -36,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3172BC8C2AB0AFC800DE1026 /* XtraDarkAndLightModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XtraDarkAndLightModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3172BC8E2AB0AFC800DE1026 /* XtraDarkAndLightModeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XtraDarkAndLightModeTests.swift; sourceTree = "<group>"; };
 		31AD302F2A94F94600164A5E /* DarkAndLightMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkAndLightMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AD30322A94F94600164A5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31AD30342A94F94600164A5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +62,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3172BC892AB0AFC800DE1026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31AD302C2A94F94600164A5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,12 +93,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3172BC8D2AB0AFC800DE1026 /* XtraDarkAndLightModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3172BC8E2AB0AFC800DE1026 /* XtraDarkAndLightModeTests.swift */,
+			);
+			path = XtraDarkAndLightModeTests;
+			sourceTree = "<group>";
+		};
 		31AD30262A94F94600164A5E = {
 			isa = PBXGroup;
 			children = (
 				31AD30312A94F94600164A5E /* DarkAndLightMode */,
 				31AD30482A94F94800164A5E /* DarkAndLightModeTests */,
 				31AD30522A94F94800164A5E /* DarkAndLightModeUITests */,
+				3172BC8D2AB0AFC800DE1026 /* XtraDarkAndLightModeTests */,
 				31AD30302A94F94600164A5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +118,7 @@
 				31AD302F2A94F94600164A5E /* DarkAndLightMode.app */,
 				31AD30452A94F94800164A5E /* DarkAndLightModeTests.xctest */,
 				31AD304F2A94F94800164A5E /* DarkAndLightModeUITests.xctest */,
+				3172BC8C2AB0AFC800DE1026 /* XtraDarkAndLightModeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +157,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3172BC8B2AB0AFC800DE1026 /* XtraDarkAndLightModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3172BC942AB0AFC800DE1026 /* Build configuration list for PBXNativeTarget "XtraDarkAndLightModeTests" */;
+			buildPhases = (
+				3172BC882AB0AFC800DE1026 /* Sources */,
+				3172BC892AB0AFC800DE1026 /* Frameworks */,
+				3172BC8A2AB0AFC800DE1026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3172BC912AB0AFC800DE1026 /* PBXTargetDependency */,
+			);
+			name = XtraDarkAndLightModeTests;
+			productName = XtraDarkAndLightModeTests;
+			productReference = 3172BC8C2AB0AFC800DE1026 /* XtraDarkAndLightModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		31AD302E2A94F94600164A5E /* DarkAndLightMode */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31AD30592A94F94800164A5E /* Build configuration list for PBXNativeTarget "DarkAndLightMode" */;
@@ -193,6 +238,10 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					3172BC8B2AB0AFC800DE1026 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 31AD302E2A94F94600164A5E;
+					};
 					31AD302E2A94F94600164A5E = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -222,11 +271,19 @@
 				31AD302E2A94F94600164A5E /* DarkAndLightMode */,
 				31AD30442A94F94800164A5E /* DarkAndLightModeTests */,
 				31AD304E2A94F94800164A5E /* DarkAndLightModeUITests */,
+				3172BC8B2AB0AFC800DE1026 /* XtraDarkAndLightModeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3172BC8A2AB0AFC800DE1026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31AD302D2A94F94600164A5E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,6 +311,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3172BC882AB0AFC800DE1026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3172BC8F2AB0AFC800DE1026 /* XtraDarkAndLightModeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31AD302B2A94F94600164A5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,6 +349,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3172BC912AB0AFC800DE1026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31AD302E2A94F94600164A5E /* DarkAndLightMode */;
+			targetProxy = 3172BC902AB0AFC800DE1026 /* PBXContainerItemProxy */;
+		};
 		31AD30472A94F94800164A5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 31AD302E2A94F94600164A5E /* DarkAndLightMode */;
@@ -316,6 +386,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3172BC922AB0AFC800DE1026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KUN9FDAF5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iszabi.XtraDarkAndLightModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkAndLightMode.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DarkAndLightMode";
+			};
+			name = Debug;
+		};
+		3172BC932AB0AFC800DE1026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KUN9FDAF5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iszabi.XtraDarkAndLightModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkAndLightMode.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DarkAndLightMode";
+			};
+			name = Release;
+		};
 		31AD30572A94F94800164A5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -443,8 +549,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,8 +576,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,6 +669,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3172BC942AB0AFC800DE1026 /* Build configuration list for PBXNativeTarget "XtraDarkAndLightModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3172BC922AB0AFC800DE1026 /* Debug */,
+				3172BC932AB0AFC800DE1026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		31AD302A2A94F94600164A5E /* Build configuration list for PBXProject "DarkAndLightMode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
