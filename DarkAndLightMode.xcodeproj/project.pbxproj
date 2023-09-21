@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3172BC8F2AB0AFC800DE1026 /* XtraDarkAndLightModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3172BC8E2AB0AFC800DE1026 /* XtraDarkAndLightModeTests.swift */; };
 		31AD30332A94F94600164A5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AD30322A94F94600164A5E /* AppDelegate.swift */; };
 		31AD30352A94F94600164A5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AD30342A94F94600164A5E /* SceneDelegate.swift */; };
 		31AD30372A94F94600164A5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AD30362A94F94600164A5E /* ViewController.swift */; };
@@ -45,7 +44,6 @@
 
 /* Begin PBXFileReference section */
 		3172BC8C2AB0AFC800DE1026 /* XtraDarkAndLightModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XtraDarkAndLightModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3172BC8E2AB0AFC800DE1026 /* XtraDarkAndLightModeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XtraDarkAndLightModeTests.swift; sourceTree = "<group>"; };
 		31AD302F2A94F94600164A5E /* DarkAndLightMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkAndLightMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AD30322A94F94600164A5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31AD30342A94F94600164A5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,21 +91,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3172BC8D2AB0AFC800DE1026 /* XtraDarkAndLightModeTests */ = {
-			isa = PBXGroup;
-			children = (
-				3172BC8E2AB0AFC800DE1026 /* XtraDarkAndLightModeTests.swift */,
-			);
-			path = XtraDarkAndLightModeTests;
-			sourceTree = "<group>";
-		};
 		31AD30262A94F94600164A5E = {
 			isa = PBXGroup;
 			children = (
 				31AD30312A94F94600164A5E /* DarkAndLightMode */,
 				31AD30482A94F94800164A5E /* DarkAndLightModeTests */,
 				31AD30522A94F94800164A5E /* DarkAndLightModeUITests */,
-				3172BC8D2AB0AFC800DE1026 /* XtraDarkAndLightModeTests */,
 				31AD30302A94F94600164A5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -315,7 +304,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3172BC8F2AB0AFC800DE1026 /* XtraDarkAndLightModeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
