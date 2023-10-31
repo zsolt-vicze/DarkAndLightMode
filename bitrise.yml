@@ -23,6 +23,10 @@ workflows:
         - cache_level: none
     - deploy-to-bitrise-io@2: {}
   run_tests:
+    meta:
+      bitrise.io:
+        stack: osx-xcode-15.0.x
+        machine_type_id: g2-m1.4core
     summary: Run your Xcode tests and get the test report.
     description: The workflow will first clone your Git repository, cache and install your project's dependencies if any, run your Xcode tests and save the test results.
     steps:
