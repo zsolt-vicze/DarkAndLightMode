@@ -13,7 +13,7 @@ workflows:
         - project_path: $BITRISE_PROJECT_PATH
         - scheme: $BITRISE_SCHEME
         - test_repetition_mode: retry_on_failure
-        - cache_level: none
+        - cache_level: none 
     - xcode-archive@5:
         inputs:
         - project_path: $BITRISE_PROJECT_PATH
