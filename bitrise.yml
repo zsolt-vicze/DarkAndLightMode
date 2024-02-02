@@ -9,7 +9,7 @@ workflows:
     - activate-ssh-key@4: {}
     - git-clone@8: {}
     - xcode-test@5:
-        inputs:
+        inputs: 
         - project_path: $BITRISE_PROJECT_PATH
         - scheme: $BITRISE_SCHEME
         - test_repetition_mode: retry_on_failure
